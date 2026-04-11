@@ -506,3 +506,22 @@ footer .follow {
   padding-right: 4px;
   cursor: pointer;
 }
+
+footer .install .row img {
+  border: 1px solid #088178;
+  border-radius: 6px;
+}
+
+footer .install img {
+  margin: 10px 0 15px 0;
+}
+
+footer .fooow i:hover,
+footer a:hover {
+  color: #088178;
+}
+
+footer .copyright {
+  width: 100%;
+  text-align: center;
+}
