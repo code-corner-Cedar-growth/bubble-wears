@@ -591,6 +591,13 @@ The SProduct page styles are added in this section
 
 ===========================*/
 
+#prodetails {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  margin-top: 20px;
+}
+
 #prodetails .single-pro-image {
   width: 40%;
   margin-right: 50px;
@@ -604,6 +611,11 @@ The SProduct page styles are added in this section
 .small-img-col {
   flex-basis: 24%;
   cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+  width: 50%;
+  padding-top: 30px;
 }
 /* ===================Start Media Queries======================== */
 
