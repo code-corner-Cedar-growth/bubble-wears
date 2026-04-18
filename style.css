@@ -616,7 +616,47 @@ The SProduct page styles are added in this section
 #prodetails .single-pro-details {
   width: 50%;
   padding-top: 30px;
+  font-family: "Inter", sans-serif;
 }
+
+#prodetails .single-pro-details h4 {
+  padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2 {
+  font-size: 26px;
+}
+
+#prodetails .single-pro-details select {
+  display: block;
+  padding: 5px 10px;
+  margin: 20px 0;
+  outline: none;
+}
+
+#prodetails .single-pro-details input {
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  outline: none;
+}
+
+#prodetails .single-pro-details button {
+  background: #088178;
+  color: #fff;
+  border: 0;
+  padding: 14px 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+#prodetails .single-pro-details span {
+  line-height: 25px;
+  color: #606063;
+}
+
 /* ===================Start Media Queries======================== */
 
 @media (max-width: 799px) {

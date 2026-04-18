@@ -15,3 +15,14 @@ if (close) {
     nav.classList.remove("active");
   });
 }
+
+// Image change for the product page.
+
+const mainImage = document.querySelector(".img1");
+const smallImages = document.querySelectorAll(".small-img-col img");
+
+smallImages.forEach((smallImage) => {
+  smallImage.addEventListener("click", () => {
+    mainImage.src = smallImage.src;
+  });
+});
