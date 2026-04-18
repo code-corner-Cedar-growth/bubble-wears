@@ -35,7 +35,7 @@ p {
 }
 
 .section-p1 {
-  padding: 40px 80px;
+  padding: 40px 60px;
 }
 
 .section-m1 {
@@ -563,6 +563,29 @@ footer .copyright {
   font-size: 14px;
 }
 
+#blog-header {
+  background-image: url("img/banner/b19.jpg");
+  width: 100%;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#blog-header h2 {
+  color: #fff;
+  font-size: 50px;
+}
+
+#blog-header p {
+  color: #fff;
+  font-size: 14px;
+}
+
 #pagination {
   text-align: center;
 }
@@ -660,6 +683,18 @@ The SProduct page styles are added in this section
 /* ===================Start Media Queries======================== */
 
 @media (max-width: 799px) {
+  .section-p1 {
+    padding: 40px 20px;
+  }
+
+  #product1 .pro-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 20px;
+    justify-content: center;
+  }
+
   #navbar {
     flex-direction: column;
     display: flex;
@@ -711,6 +746,23 @@ The SProduct page styles are added in this section
     display: flex;
     background-position: top 30% right 30%;
   }
+
+  /* Single Product Page */
+  #prodetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #prodetails .single-pro-image {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  #prodetails .single-pro-details {
+    width: 100%;
+    padding-top: 30px;
+    font-family: "Inter", sans-serif;
+  }
 }
-
-
