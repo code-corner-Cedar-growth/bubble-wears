@@ -563,6 +563,28 @@ footer .copyright {
   font-size: 14px;
 }
 
+#pagination {
+  text-align: center;
+}
+
+#pagination a {
+  display: inline-block;
+  padding: 10px 16px;
+  /* margin: 0 2px; */
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  background-color: #088178;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#pagination ai {
+  font-weight: 16px;
+  font-weight: 600;
+}
+
 /* Start Media Queries */
 
 @media (max-width: 799px) {
