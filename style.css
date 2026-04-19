@@ -694,11 +694,14 @@ The blog section style starts here
   display: flex;
   align-items: center;
   width: 100%;
+  position: relative;
+  margin-bottom: 4rem;
 }
 
 #blog .blog-img {
   width: 50%;
   margin-right: 40px;
+  z-index: 100;
 }
 
 #blog img {
@@ -747,6 +750,7 @@ The blog section style starts here
   font-size: 70px;
   font-weight: 700;
   color: #c9cbce;
+  z-index: 10;
 }
 /* ===================Start Media Queries======================== */
 
@@ -832,5 +836,37 @@ The blog section style starts here
     width: 100%;
     padding-top: 30px;
     font-family: "Inter", sans-serif;
+  }
+
+  /* Blog page responsiveness */
+
+  #blog {
+    padding: 1rem 5%;
+  }
+  #blog .blog-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #blog .blog-img {
+    width: 100%;
+
+    z-index: 100;
+    margin-right: 0px;
+  }
+
+  #blog img {
+    width: 100%;
+  }
+
+  #blog .blog-box h1 {
+    display: none;
+  }
+
+  #blog .blog-content {
+    width: 100%;
   }
 }
