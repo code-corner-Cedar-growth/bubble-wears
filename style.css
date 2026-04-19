@@ -680,6 +680,21 @@ The SProduct page styles are added in this section
   color: #606063;
 }
 
+/* ======================================= 
+
+The blog section style starts here
+
+===========================================*/
+
+#blog {
+  padding: 150px 150px 0 150px;
+}
+
+#blog .blog-box {
+  display: flex;
+  align-items: center;
+}
+
 /* ===================Start Media Queries======================== */
 
 @media (max-width: 799px) {
