@@ -693,8 +693,61 @@ The blog section style starts here
 #blog .blog-box {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
+#blog .blog-img {
+  width: 50%;
+  margin-right: 40px;
+}
+
+#blog img {
+  width: 100%;
+  /* border-radius: 20px; */
+  height: 300px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+#blog .blog-content {
+  width: 50%;
+}
+
+#blog .blog-content a {
+  text-decoration: none;
+  font-size: 11px;
+  color: #000;
+  font-weight: 700;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+#blog .blog-content a::after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: #000;
+  position: absolute;
+  top: 4px;
+  right: -60px;
+}
+
+#blog .blog-content a:hover {
+  color: #088178;
+}
+
+#blog .blog-content a:hover::after {
+  background-color: #088178;
+}
+
+#blog .blog-box h1 {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  font-size: 70px;
+  font-weight: 700;
+  color: #c9cbce;
+}
 /* ===================Start Media Queries======================== */
 
 @media (max-width: 799px) {
