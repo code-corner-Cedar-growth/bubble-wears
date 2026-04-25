@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Spartan", sans-serif;
+  /* font-size: 62.5%; */
 }
 
 h1 {
@@ -905,5 +906,27 @@ The blog section style starts here
 
   #blog .blog-content {
     width: 100%;
+  }
+
+  /* Responsiveness for the about page */
+
+  #about-head {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about-head img {
+    width: 100%;
+    height: auto;
+  }
+
+  #about-head div {
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+
+  #about-app .video {
+    width: 100%;
+    height: auto;
   }
 }
