@@ -752,6 +752,13 @@ The blog section style starts here
   color: #c9cbce;
   z-index: 10;
 }
+
+/* About Page Style Starts Here */
+
+#page-header.about-header {
+  background-image: url("img/about/banner.png");
+}
+
 /* ===================Start Media Queries======================== */
 
 @media (max-width: 799px) {
